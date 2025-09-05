@@ -10,7 +10,7 @@ namespace SEMANA1_C_
     {
         static void Main(string[] args)
         {
-            ejer1(); //Lo declaramos (Paso 2)
+            ejer2(); //Lo declaramos (Paso 2)
             Console.ReadKey(); //realizando detenimiento de consola
         }
         static void ejer1() //Para hacer mas ejercicios en un solo programa (Paso 1)
@@ -23,6 +23,11 @@ namespace SEMANA1_C_
             carrera = Console.ReadLine();
 
             Console.WriteLine($"\n{nombre}, bienvenido al Curso de Fundamentos de Algoritmos de la carrera {carrera}.");
+        }
+
+        static void ejer2()
+        {
+            Console.WriteLine("\"Gean\"");
         }
     }
 }
