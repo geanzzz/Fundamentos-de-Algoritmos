@@ -10,7 +10,7 @@ namespace SEMANA1_C_
     {
         static void Main(string[] args)
         {
-            ejer2(); //Lo declaramos (Paso 2)
+            ejer3(); //Lo declaramos (Paso 2)
             Console.ReadKey(); //realizando detenimiento de consola
         }
         static void ejer1() //Para hacer mas ejercicios en un solo programa (Paso 1)
@@ -28,6 +28,22 @@ namespace SEMANA1_C_
         static void ejer2()
         {
             Console.WriteLine("\"Gean\"");
+        }
+
+        static void ejer3()
+        {
+            Console.Write("Ingrese x: ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese la y: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            double divi = (double)x / (double)y;
+
+            Console.WriteLine("\nSuma: " +(x + y));
+            Console.WriteLine("Resta: " +(x - y));
+            Console.WriteLine("Multiplicación: " +(x * y));
+            Console.WriteLine("División: " +divi);
         }
     }
 }
